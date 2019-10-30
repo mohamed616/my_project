@@ -1,0 +1,24 @@
+/*extra screen*/
+@media(max-width:767px){
+    .sup .input-lg{
+        margin: 10px auto;
+        width: 300px
+    } 
+    .navbar-fixed-top .navbar-collapse,
+    .navbar-fixed-bottom .navbar-collapse {    
+        max-height:none
+    }
+    .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px
+    }
+}
+
+/*small screen*/
+@media(min-width:768px)and(max-width:991px){
+    .sup .input-lg{
+        margin: 10px auto;
+        width: 300px
+    }  
+}
+

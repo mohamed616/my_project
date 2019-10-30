@@ -1,0 +1,32 @@
+.veri,.adva,.coort{
+    text-transform: capitalize;
+    padding-top: 40px;
+    padding-bottom: 40px
+}
+
+.veri h2,.adva h2,.adva h3,.hel h2,.faq h2{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+.veri p,.adva p,.hel p{
+    line-height: 1.8em;
+    padding-bottom: 20px
+}
+/*faq*/
+.faq{
+   padding-top: 40px; 
+}
+.faq p{
+    padding-top: 30px
+}
+.coort .panel-heading a:after{
+    font-family: "Glyphicons Halflings";
+    content: "\e114";
+    float: right
+}
+.coort .panel-heading a.collapsed:after{
+     font-family: "Glyphicons Halflings";
+    content: "\e080";
+    float: right;
+    color: #888
+}

@@ -1,0 +1,22 @@
+.box .sel,
+.box .ki,
+.testi .carousel-indicators .active{
+    border: 3px solid #1d22afbf;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover, 
+.dropdown-menu > li > a:focus,
+.box .ki{
+    background-color: #1d22afbf
+}
+
+.navbar-inverse .navbar-brand,
+.about h1 span,
+.about h3 span,
+.testi span,
+.footer h3,
+.footer .end span{
+    color: #1d22afbf
+}
