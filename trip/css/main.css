@@ -1,0 +1,243 @@
+.navbar-default{
+    background-color: #fff;
+    border-color: #fff
+}
+.navbar-toggle{
+    margin-top: 35px;
+}
+.navbar-default .navbar-nav>li>a{
+    color:#000;
+    font-weight: bold
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: burlywood;
+    background-color: #fff
+}
+
+.navbar-nav>li>a{
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    
+}
+.navbar-default .navbar-nav>li>a:hover{
+    cursor:pointer;
+    color: burlywood;
+    background-color: #fff
+}
+.navbar-brand>img{
+    height: 60px;
+}
+.one{
+    background:url("../images/hero_1.jpg") no-repeat top center; 
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    margin-top: 33px
+}
+.one h1,.one p{
+    text-transform: capitalize;
+    position: absolute;
+    font-weight:bolder
+    
+}
+.one h1{
+    top:30%
+}
+.one p{
+    top:60%
+}
+.two{
+    padding-top:40px;
+    padding-bottom: 20px
+}
+.two h2{
+    padding-top: 40px
+}
+.two p{
+    font-weight: bold;
+    line-height: 1.9em;
+    font-size:16px;
+    padding-top: 50px
+}
+.two .le{
+    padding-top: 0
+}
+.three{
+    padding-top: 40px;
+    padding-bottom: 20px
+}
+.three .lo{
+   position: relative;
+   margin-bottom: 15px
+}
+.three .lo .overlay{
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    background-color: rgba(0,0,0,0.4);
+    
+}
+.three .lo button{
+    display: block;
+    position: absolute;
+    border-radius: 15px;
+    min-width:90px;
+    border:0;
+    background-color:burlywood;
+    top: 75%;
+    left: 35%;
+    color:#fff;
+    padding:5px 0;
+    z-index:10;
+}
+.three .lo h3{
+ position: absolute;
+ color:#fff;
+ z-index:10;
+ top: 80%;
+ left: 20%
+}
+.three .lo img{
+   width:100%;
+}
+.three h2{
+    padding-bottom: 40px
+}
+.four{
+    padding-top:40px;
+    padding-bottom: 20px
+}
+.four .tea{
+    padding-bottom: 30px
+}
+.four img{
+    border-radius: 15px
+}
+.four h2{
+    padding-bottom: 40px;
+}
+.four p{
+    padding-top: 30px;
+    line-height: 1.8em
+}
+.four i{
+    color:burlywood;
+    padding:10px;
+    background-color: bisque;
+    border-radius: 50%
+}
+.five .blo{
+    padding-bottom: 30px
+}
+.five h2{
+    padding-top: 50px;
+    padding-bottom:50px 
+}
+.five .blo img{
+    width: 100%
+}
+.five p{
+    padding-top: 20px;
+    line-height: 1.7em
+}
+.five h3{
+    font-size: 15px
+}
+.five h3 span{
+    color:burlywood
+}
+.six{
+    padding-top: 50px;
+    padding-bottom:50px;
+    color:#000;
+    background: url("../images/hero_1.jpg") no-repeat top center fixed;
+    background-size: cover
+}
+.six h2{
+    padding-bottom: 20px;
+    text-transform: capitalize;
+}
+.six p{
+    padding-bottom: 20px;
+}
+.six button{
+        min-width:90px;
+        border:0;
+        background-color:burlywood;
+        color:#000;
+        padding:5px 0;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        cursor: pointer
+}
+.seven{
+    padding-top: 50px;
+    padding-bottom:50px;
+    text-transform: capitalize;
+    background-color: #e8d6d657
+}
+.seven h3{
+    padding-bottom: 30px
+}
+.seven img{
+    width:100%;
+    margin-bottom:10px
+}
+.seven ul{
+    line-height: 3em;
+    font-size: 15px;
+    color:burlywood
+}
+.seven p{
+    line-height: 2em;
+    padding-bottom: 10px
+}
+.seven input{
+    width:70%;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border:0
+}
+.seven button{
+    width: 20%;
+    border:0;
+    background-color:burlywood;
+    color:#000;
+    text-transform: uppercase;
+    padding: 15px 13px;
+    margin-left: 17px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.seven .end{
+    padding-bottom: 20px
+}
+.seven .foot{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.seven .foot span{
+    color:burlywood;
+    text-transform: capitalize
+}
+p{
+    color:#AAA
+}
+h2,h3,h4,span,p{
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+}
+
+.one .dea{
+    color:#000
+}
