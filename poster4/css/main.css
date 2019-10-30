@@ -1,0 +1,352 @@
+
+.bar{
+    background-color: #08526d;
+    color: #b3abab;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+.bar .ge{
+    margin-left: 15px;
+    padding: 5px 10px
+}
+/*end section*/
+.navbar-brand{
+    text-transform: capitalize;
+    font-size: 30px;
+    
+}
+.navbar-brand span:first-child{
+    font-weight: bold;
+    color: #08526d
+}
+.navbar-brand span:last-child{
+    color: #d83c41;
+    letter-spacing: 3px
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #08526d;
+    text-transform: uppercase;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+   color: #d83c41;
+    font-weight: bold;
+}
+/*end section*/
+
+.carousel-inner{
+    display: flex;
+    align-items: center;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+/*end section*/
+/*.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 3
+}
+*/
+.feat,.compony,.work,.post,.pricing{
+    text-transform: capitalize;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.feat .fe{
+ margin-bottom: 30px
+} 
+.feat .fe i{
+    background-color:#d83c41;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    padding: 10px
+}
+.feat .fe h3{
+    color:#08526d 
+}
+/*end section*/
+.compony{
+    background-color: #EEE
+}
+.compony h2,.post h2,.pricing h2{
+    font-weight: bolder;
+    margin-bottom: 30px
+}
+.compony p{
+    line-height: 1.9em;
+}
+.compony h4{
+    letter-spacing: 5px;
+    padding: 15px 0;
+    font-weight: normal
+}
+.compony button{
+    background-color:#d83c41;
+    color: #fff;
+    border: none;
+    padding: 7px 20px;
+    font-weight: bold
+}
+/*end section*/
+.work h2{
+    font-weight: bolder;
+    margin-bottom: 30px
+}
+.work p,.pricing p{
+    line-height: 1.9em;
+    padding-bottom: 30px
+}
+.work button{
+    margin-left: 2px;
+    padding: 5px 10px;
+    background-color: #fff;
+    color:#08526d;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border:1px solid #08526d;
+    margin-bottom: 7px;
+    transition: all .1s ease
+}
+.work button.active,
+.work button:hover{
+    background-color:#d83c41;
+    color: #fff;
+    border:1px solid #d83c41;
+    cursor: pointer
+}
+.work .gal{
+    margin-top: 30px;
+}
+.work .gal .row{
+    margin: 0
+}
+.work .gal .ge{
+    padding: 0
+}
+.work .gal .ge img{
+    max-width:100%
+}
+/*end section*/
+.post p{
+  line-height: 1.9em;
+    padding-bottom: 30px
+}
+.post .per{
+    width: 80%;
+    margin: 0 auto 30px
+}
+.card-title{
+    color:#08526d 
+}
+.card-link{
+    color:#d83c41;
+    font-weight: bold
+}
+.post .card{
+        margin-bottom:20px
+    }
+@media(max-width:768px){
+    .post .card{
+        margin:20px auto 
+    }
+}
+/*end section*/
+.testimonial{
+    background-image:url("../images/page.jpg");
+    background-size: cover;
+    position: relative
+}
+.carousel{
+    z-index: 5;
+}
+.testimonial img{
+    border-radius: 50%;
+    margin-bottom: 20px
+}
+.testimonial p{
+    margin-bottom: 100px
+}
+/*end section*/
+.pricing {
+    background-color: #eee
+}
+.pricing .pri .pr{
+    background-color: #fff;
+    padding: 30px 0;
+    font-weight: normal;
+    color: #888;
+    margin-top: 15px;
+    margin: 15px
+}
+.pricing .pri .pr h6,
+.pricing .pri .pr h3,
+.pricing .pri .pr h4{
+    padding: 10px
+}
+.pricing .pri .pr h4{
+    margin: 0;
+    padding: 0
+}
+.pricing .pri .pr h3,
+.pricing .pri .pr h4{
+    color:#08526d 
+}
+.pricing .pri .pr h3{
+     display: inline-block;
+    background-color:#eee;
+    width: 100%
+}
+.pricing span{
+   color:#08526d ;
+    font-weight: bold;
+    font-size: 15px;
+}
+.pricing .pri .pr button{
+    padding: 5px 20px;
+    color: #fff;
+    background-color:#d83c41;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border:1px solid #d83c41;
+    margin-top:10px;
+    text-transform: uppercase
+}
+.pricing .pri .dr{
+    margin-top: 0
+}
+.pricing .pri .dr h3{
+    background-color:#d83c41;
+    color: #fff;
+    width: 100%
+}
+.pricing .pri .dr span{
+   color: #fff; 
+}
+.pricing .pri .dr button{
+  background-color:#08526d;
+    border:1px solid #08526d;
+}
+/*end section*/
+.our{
+    text-transform: capitalize;
+}
+.our .ruo{
+    padding: 0;
+    
+}
+.our .ruo img{
+    max-width: 100%
+}
+.our .ruo:last-child{
+    background-color:#08526d;
+    padding: 70px 30px;
+    line-height: 2;
+    color: #fff
+}
+.our .ruo:last-child h2{
+    margin-bottom: 40px
+}
+.our .ruo:last-child button{
+    padding: 5px 20px;
+    color: #fff;
+    background-color:#d83c41;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border:1px solid #d83c41;
+    margin-top:10px;
+    text-transform: uppercase
+}
+/*end section*/
+.statict{
+    text-transform: capitalize;
+    padding-top: 50px;
+}
+.statict .stat{
+    margin-bottom: 70px
+}
+.statict p{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top:20px;
+    padding-bottom: 0
+}
+.statict i,
+.statict p{
+    color:#08526d 
+}
+.statict h5{
+    color:#d83c41;
+}
+/*end section*/
+.contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #d83c41
+}
+.contact p{
+    font-size: 20px
+}
+.contact button{
+    padding: 5px 20px;
+    color: #fff;
+    background-color:#d83c41;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border:1px solid #fff;
+    text-transform: uppercase
+}
+@media(max-width:767px){
+    .contact button{
+    display: block;
+    margin: 10px auto 00  
+    }
+    .contact p{
+    text-align: center
+}
+}
+/*end section*/
+.footer{
+    padding-top: 50px;
+    text-transform: capitalize;
+}
+
+.footer h2,.footer h4{
+    color:#08526d;
+    padding-bottom: 30px
+}
+.footer ul{
+    list-style: none;
+    font-weight: bold;
+    color:#08526d;
+    margin: 0;
+    padding: 0
+}
+.footer ul li{
+    padding-bottom: 17px
+}
+.footer .ed p{
+    padding-bottom: 45px
+}
+.footer .ter{
+    margin-bottom: 30px
+}
+.foot i{
+    margin-left: 10px;
+    color:#08526d;
+    margin-bottom: 15px
+}
+.foot span{
+    color: #d83c41
+}
