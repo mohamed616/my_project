@@ -1,0 +1,342 @@
+*{
+    box-sizing: border-box
+}
+body{
+    perspective: 500px;
+}
+.heade{
+    background: url("../images/bg.jpg") no-repeat top center;
+    background-size: cover;
+    height: 657px; 
+    position: relative
+}
+.heade .mai p{
+    font-size:60px
+}
+.navbar-light .navbar-brand,.navbar-light .navbar-nav .nav-link, .fab{
+ color:rgba(255, 255, 255, 0.8);
+ padding-bottom:35px; 
+ padding-left:15px;
+}
+.bg-light {
+    background-color: transparent !important;
+}
+.overlay{
+    display: flex;
+    width: 100%;
+    height:100%;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(18, 16, 82, 0.75);
+    color:#FFF;
+    justify-content: center;
+    align-items: center
+}
+.heade .navbar-brand{
+    letter-spacing: 2px;
+}
+.heade .navbar-brand:hover{
+    cursor: none;
+}
+.heade .navbar-brand span{
+ color:blue
+}
+.heade a:hover{
+    color:#fff !important
+}
+.heade ul{
+    margin:15px auto !important;
+    font-weight: bold;
+}
+.heade .ui{
+    display: flex;
+    flex-wrap:wrap;
+}
+.heade ul li{
+    padding:0 8px
+}
+.heade  .fab{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding:0;
+    margin-right: 20px
+}
+ .heade li:hover,.heade .fab:hover{
+    outline:0;
+    border:0;
+    cursor: pointer;
+}
+@media(max-width:575.98px){
+.navbar-collapse {
+		background-color:#202423 !important
+		}
+}
+@media(min-width:576px){
+.navbar-collapse {
+		background-color:#202423 !important
+		}
+}
+@media(min-width:992px){
+.navbar-collapse {
+		background-color:transparent !important
+		}
+}
+/*               
+* *****************                
+**               **
+** start offer**
+**               **
+* *****************                
+*/
+.hom{
+    padding:50px 0;
+    
+}
+.hom .pal{
+    background-color:#fff;
+    padding:10px 10px;
+    margin-bottom: 20px;
+    border-radius:10px;
+    
+}
+.hom .pal > img{
+    width:100%;
+    border-radius:10px;
+    transition: all .5s ease-in;
+}
+.hom .pal > img:hover{
+    transform: scale(1.05,1.05);
+}
+.hom span{
+    display: inline-block;
+    margin-left:5px;
+    margin-right:5px;
+}
+.hom p{
+    padding-top:10px;
+    font-weight: bolder;
+    
+}
+.hom .pri{
+    padding-left:10px;
+}
+.hom button{
+    margin:37px 0 37px 80px !important;
+    padding:10px 10px;
+    width:160px
+}
+.hom ul{
+    margin-bottom: 20px;;
+    padding:0
+}
+.hom li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.coat{
+    background:url("../images/bg-2.jpg") no-repeat top center;
+    background-size:cover;
+    min-height: 600px;
+}
+.coat .chcoat{
+	position: relative;
+	min-height:400px;
+	display:flex;
+	justify-content:right;
+	align-items:center;
+	color:#000;
+	padding-top: 20px;
+}
+.coat .gracoat{
+	background-color:#fff;
+	padding:40px;
+	border:1px solid #ddd;
+	box-shadow:5px 5px 5px #ddd,
+	        -5px -5px 5px #ddd
+}
+.coat i{
+	position: absolute;
+	font-size:50px;
+}
+.coat .ion{
+	top:70px;
+	right:0
+}
+.coat .iwo{
+	bottom:50px;
+	left:0
+}
+@media(max-width:575.98px){
+    .coat .ion{
+        top:30px;
+        right:0
+    }
+    .coat .iwo{
+        bottom:10px;
+        left:0
+    }
+}
+@media(min-width:576px)and(max-width:767.98px){
+    .coat .ion{
+        top:25px;
+        right:0
+    }
+    .coat .iwo{
+        bottom:5px;
+        left:0
+    }
+}
+/*               
+* *****************                
+**               **
+** start subscribe**
+**               **
+* *****************                
+*/
+
+.hel{
+    background-color: #30304e;
+    padding: 100px 0;
+    color:#fff
+}
+
+.hel img{
+   display: block;
+   margin:0 auto;
+   padding-bottom:30px
+}
+.hel form{
+    padding-top:20px
+}
+.hel form input{
+    width:70%;
+    height: 40px;
+    border-radius:5px;
+    padding-left:8px;
+    border:0;
+    margin-right: 2%;
+}
+.hel p{
+    font-size: 20px;
+}
+.hel .btn{
+    width:20%;
+    height:40px;
+    vertical-align:unset;
+}
+@media(max-width:575px){
+.hel form input{
+    width:100% !important;
+    margin-bottom: 15px;
+    }
+    .hel .btn{
+        width:40%
+    }  
+}
+/*               
+* *****************                
+**               **
+** start contct  **
+**               **
+* *****************                
+*/
+.chos{
+    padding:50px 0
+}
+.chos h2{
+    padding-bottom: 30px;
+}
+.chos .lea{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.chos .us .spa{
+    line-height: 1.7em;
+}
+.chos .med{
+    padding-top: 70px;
+}
+.chos .media{
+    line-height: 2.0em;
+}
+/*               
+* *****************                
+**               **
+** start blog  **
+**               **
+* *****************                
+*/
+.hom{
+    background-color:#f8f8f9;
+    padding-top: 50px;
+}
+.hom h3{
+    padding:0 10px 30px;
+}
+.hom .col{
+    margin:0;
+    padding: 0;
+}
+/*               
+* *****************                
+**               **
+** start footer  **
+**               **
+* *****************                
+*/
+.foot{
+    background-color:#30304e;
+    color:#fff;
+    padding:50px 0
+    
+}
+.foot .fot{
+    margin-bottom:40px;
+}
+.foot p{
+    color:#9190a5;
+}
+.foot .fo{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px; ;
+}
+
+.foot ul li{
+    display: inline-block;
+    margin-right: 35px;
+}
+.foot i{
+    padding:0
+}
+.foot li:hover,.foot i:hover{
+    outline:0;
+    border:0;
+    cursor: pointer;
+}
+.foot .footer{
+    color: #9190a5;
+    font-size: 12px;
+}
+.foot .footer span{
+    color:blue;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.foot h5{
+    padding-bottom: 30px;
+}
+.foot .media{
+    margin-bottom: 55px;
+}
+/*               
+* *****************                
+**               **
+** end footer    **
+**               **
+* *****************                
+*/
